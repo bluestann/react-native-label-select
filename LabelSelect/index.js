@@ -107,6 +107,7 @@ class LabelSelect extends Component {
         {selectedLabels}
         {enable && !readOnly && enableAddBtn &&
           <TouchableHighlight
+            hitSlop={{top: 10, bottom: 10, left: 10, right: 32}}
             style={[Styles.selectedItem, Styles.addItem]}
             underlayColor="transparent"
             onPress={this.openModal}>
