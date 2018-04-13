@@ -102,7 +102,7 @@ export default StyleSheet.create({
     backgroundColor: Color.main
   },
   modalItem: {
-    height: 50,
+    paddingVertical: 12,
     paddingHorizontal: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',

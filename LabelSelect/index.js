@@ -235,8 +235,9 @@ class ModalItem extends Component {
         <View style={Styles.modalItem}>
           <Text
             style={[Styles.modalText, customStyle.modalText || {}]}
-            numberOfLines={1}
-            ellipsisMode="tail">
+            // numberOfLines={1}
+            // ellipsisMode="tail"
+            >
             {this.props.children}
           </Text>
           <View style={[Styles.outerCircle, this.isSelected ? [Styles.enableCircle, customStyle.enableCircle || {}] : {}, customStyle.outerCircle || {}]}>
