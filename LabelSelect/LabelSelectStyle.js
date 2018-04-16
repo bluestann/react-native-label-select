@@ -67,7 +67,7 @@ export default StyleSheet.create({
   },
   modalContainer: {},
   modal: {
-    height: height * 0.6,
+    height: height * 0.6 + 8,
     width: width * 0.7,
     overflow: 'hidden',
     borderRadius: 10,
@@ -75,7 +75,7 @@ export default StyleSheet.create({
   },
   title: {
     paddingHorizontal: 20,
-    paddingVertical: 10,
+    paddingVertical: 12,
     borderBottomWidth: 2 / scale,
     borderBottomColor: '#bbb'
   },
@@ -93,7 +93,7 @@ export default StyleSheet.create({
     justifyContent: 'space-around'
   },
   modalButton: {
-    height: 40,
+    height: 36 + 8,
     width: width * 0.35,
     paddingLeft: 20,
     paddingRight: 20,
